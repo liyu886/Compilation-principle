@@ -1,0 +1,15 @@
+int main()
+{
+    int a = 1, b = 2;
+    double c;
+    int d;
+    c = (double)b / a;
+    /*test annotation*/
+    if(c > a){
+         cout << "bigger" << endl;
+    }else{
+        cout << "smaller" << endl;
+    }
+    
+    return 0;
+}
